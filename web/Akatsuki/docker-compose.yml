@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: .
+    image: akatsuki
+    ports:
+      - 1409:8080
+    restart: always
+
+    

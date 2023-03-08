@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Magic</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+
+      .container {
+        margin: 50px auto;
+        width: 500px;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+
+      form {
+        margin-top: 50px;
+      }
+
+      input[type="email"] {
+        padding: 10px;
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+      }
+
+      input[type="submit"] {
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+      }
+      #message {
+            text-align: center;
+            padding: 1em;
+            border-radius: 5px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .success {
+            background-color: rgba(0, 128, 0, 0.1);
+            color: green;
+        }
+
+        .error {
+            background-color: rgba(255, 0, 0, 0.1);
+            color: red;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to our magic links service</h1>
+      <form id="form">
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <div id="message"></div>
+  </body>
+  <script>
+    const form = document.getElementById("form");
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+    
+      const email = document.getElementById("email").value;
+      const headers = new Headers();
+      headers.append("Content-Type", "application/json");
+      headers.append("Host", window.location.host);
+      const data = JSON.stringify({ email: email });
+    
+      fetch("/new", {
+        method: "POST",
+        headers: headers,
+        body: data
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          var message = document.getElementById("message");
+          if (data.status === "success") {
+            message.innerHTML = "Email sent. If you don't see it, check your spam folder.";
+            message.className = "success"
+          } else {
+            message.className = "error"
+            message.innerHTML = "An error occurred. Please try again.";
+          }
+        });
+    });
+    </script>
+</html>

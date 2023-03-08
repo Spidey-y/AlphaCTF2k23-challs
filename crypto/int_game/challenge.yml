@@ -1,0 +1,40 @@
+name: 
+author: moncif
+
+author_link: https://github.com/T3chn0cr4t
+
+category: crypto
+
+difficulty: ezmed
+
+
+description: |
+  > My friends always ask me about my salary , so i decided to share it with them in gamify way , can you recover the secret ?  
+
+  **Author** : moncif
+flags:
+  - AlphaCTF{1_4M_n07_4_M1Ll10N41r3_1337}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25 # leave it like this
+    minimum: 50
+
+connection_info: nc -v challenges.ctf.alphabit.club 1001
+
+topics:
+  - cryptography
+  - Integers
+
+tags:
+  - crypto
+  - Integers
+
+# DO NOT CHANGE
+
+state: hidden
+
+version: "0.1"
+

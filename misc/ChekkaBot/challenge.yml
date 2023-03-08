@@ -1,0 +1,54 @@
+name: ChekkaBot
+author: Adel
+author_link: https://github.com/Spidey-y
+
+category: misc
+difficulty: medium
+
+description: |
+  > Check out the best bot in the world! i forgot, the admins didn't enable all the commands, only few, or did they?
+
+  **Author** : Adel
+  
+flags:
+  - AlphaCTF{D1Sc0rD_b07s_ArE_fun_JUsT_MAKE_SuRe_70_$eCur3_ThEm}
+
+connection_info: tobeadded
+deployment:
+  autoban: false
+  deployed: true
+  dockerImage: chekkabot
+  dockerRepository: tobeadded
+  egress: deny
+  healthCheck:
+    initialDelaySeconds: 10
+    periodSeconds: 30
+  limits:
+    cpu: 100m
+    memory: 100Mi
+  name: chekkabot
+  nodePort: 30605
+  replicasNumber: 1
+  requests:
+    cpu: 10m
+    memory: 30Mi
+  type: http
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25 # leave it like this
+    minimum: 100
+
+topics:
+  - misc
+
+tags:
+  - discord
+  - bot
+
+state: hidden
+
+version: "0.1"
+

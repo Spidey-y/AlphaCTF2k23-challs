@@ -1,0 +1,28 @@
+name: something_easy
+author: yalatr3ch3
+author_link: https://github.com/Yassine-Latreche
+category: reverse
+difficulty: easy
+description: |
+  > as always, wanna learn reverse ? here's an easy challenge for you!
+  > Attachment : [output_file](https://drive.google.com/file/d/1-a4lt1g1RCc0moq47RlgW9fI1RFsrNmM/view?usp=share_link)   
+
+  **Author** : yalatr3ch3
+flags:
+  - AlphaCTF{$Ee_revERS3_1S_3A$Y}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25
+    minimum: 50
+topics:
+  - Rev
+tags:
+  - Reverse
+  - Elf
+
+# DO NOT CHANGE
+state: hidden
+version: "0.1"
+

@@ -1,0 +1,32 @@
+name: Needle
+author: Adel
+author_link: https://github.com/Spidey-y
+
+category: forensics
+difficulty: easy
+
+description: |
+  > Here's a haystack, find the hidden needle: [haystack.jpg]("https://drive.google.com/file/d/1CeiyAfXAqZEJmNx7gTBIOP_CH_UPVwaU/view?usp=sharing")
+
+  **Author** : Adel
+  
+flags:
+  - AlphaCTF{1_f0UND_th3_NeEDL3_yaY}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25 # leave it like this
+    minimum: 100
+
+topics:
+  - misc
+
+tags:
+  - stegano
+  - DFIR
+
+state: hidden
+
+version: "0.1"

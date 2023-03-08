@@ -1,0 +1,25 @@
+name: "BOF_scanf"
+author: "0xhunter213"
+author_link: "https://github.com/0xhunter213"
+
+category: pwn
+difficulty: easy
+
+description: |
+  > bof [files](https://drive.google.com/drive/folders/1wf09Copxu_rDbqB4q8yu2zTYf0DLl5tK?usp=sharing)
+
+  **Author** : 0xhunter213
+  
+connection_info: nc -v challenges.ctf.alphabit.club 1200
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 25
+    minimum: 50
+
+flags:
+  - AlphaCTF{buf3r_0verf0lw_3very_wh3r3_dude...!!!!!!!}
+state: visible
+
+version: "0.1"

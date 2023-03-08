@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  app:
+    build: challenge/app/
+    image: magic_links_app
+    ports:
+      - 1407:5000
+    environment:
+      - EMAIL_ADDRESS=magic.links.service@gmail.com
+      - EMAIL_PASSWORD=gsrxtxioefuqlllx
+      - FLAG=`AlphaCTF{g0tTA_watCH_7hE_H0S7_h34d3r}`
+    restart: always
+
+
+  admin:
+    image: magic_links_admin
+    build: challenge/admin/
+    depends_on:
+      - app
+    environment:
+      - EMAIL_ADDRESS=magic.links.service@gmail.com
+      - EMAIL_PASSWORD=gsrxtxioefuqlllx
+    restart: always
+

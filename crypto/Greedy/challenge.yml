@@ -1,0 +1,32 @@
+name: Greedy
+author: Adel
+author_link: https://github.com/Spidey-y
+
+category: crypto
+difficulty: medium
+
+description: |
+  > I have a flag, but I don't know how to get it. Can you help me?
+  > [files](https://drive.google.com/drive/folders/1wW_HgZCWTlwbVEU6gjpyIoOJ9Z_VPI_M?usp=share_link)
+  
+  **Author** : Adel
+  
+flags:
+  - AlphaCTF{GG_Y0Ur3_4_Cryp7o_L3G3Nd_Go_Submit}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25 # leave it like this
+    minimum: 100
+
+topics:
+  - crypto
+
+tags:
+  - crypto
+
+state: hidden
+
+version: "0.1"

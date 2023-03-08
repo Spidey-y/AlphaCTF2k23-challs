@@ -1,0 +1,35 @@
+name: Magic Links
+author: Adel
+author_link: https://github.com/Spidey-y
+
+category: web
+difficulty: easy/medium
+
+description: |
+  >Why use passwords ? I created a service that you can use with just your email :D check it out, and if you have any feedback make sure to email me, i always check my inbox 
+  
+  **Author** : Adel
+  
+flags:
+  - AlphaCTF{g0tTA_watCH_7hE_H0$7_h34d3r}
+
+connection_info: https://challenges.ctf.alphabit.club:1406
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25 # leave it like this
+    minimum: 100
+
+topics:
+  - web
+
+tags:
+  - web
+
+state: hidden
+
+version: "0.1"
+
+

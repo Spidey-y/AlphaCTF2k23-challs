@@ -1,0 +1,28 @@
+name: Loops!
+author: Cynex
+author_link: https://github.com/cynex-k
+category: reverse
+difficulty: medium
+description: |
+  > I hide my flag in this storm of loops can you recover it. 
+  > Attachment : [Chall.zip](https://drive.google.com/file/d/1B-npAQ0j15kZ88a1X3j8pmdgy--83_kl/view?usp=share_link)   
+
+  **Author** : Cynex
+flags:
+  - AlphaCTF{M4tr1x_1n_Lo0p}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25
+    minimum: 50
+topics:
+  - Rev
+tags:
+  - Reverse
+  - Elf
+
+# DO NOT CHANGE
+state: hidden
+version: "0.1"
+

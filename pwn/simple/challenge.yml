@@ -1,0 +1,25 @@
+name: "S1mpl3"
+author: "0xhunter213"
+author_link: "https://github.com/0xhunter213"
+
+category: pwn
+difficulty: med
+
+description: |
+  > keep 1t S1mpl3 [files](https://drive.google.com/drive/folders/15lEy4JrtS_cERuASf3rhD4LL1Wj5NhXl?usp=share_link)
+  
+  **Author** : 0xhunter213
+  
+connection_info: nc -v challenges.ctf.alphabit.club 1206
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 25
+    minimum: 50
+
+flags:
+  - AlphaCTF{r3334l_p3wn3r_fr0m_n0th1ng_c4n_cr34t3_an_4ttacks}
+state: hidden
+
+version: "0.1"

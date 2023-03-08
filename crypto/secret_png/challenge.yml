@@ -1,0 +1,34 @@
+name: secret_png
+author: moncif
+author_link: https://github.com/T3chn0cr4t
+
+category: crypto
+difficulty: easy
+
+description: |
+  > Xoring files with a secret key , was always a good way to hide data .
+  > [file](https://drive.google.com/file/d/1ul8HitlQzxUn4QWYTj_WxKrKnX9vLNTg/view?usp=sharing)
+
+  **Author** : moncif
+flags:
+  - AlphaCTF{e45y_X0rR1ng_1337}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25 # leave it like this
+    minimum: 50
+
+topics:
+  - simple xor
+
+tags:
+  - xor
+  - png
+
+state: hidden
+
+version: "0.1"
+
+

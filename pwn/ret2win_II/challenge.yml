@@ -1,0 +1,24 @@
+name: "ret2win II"
+author: "Scorpion197"
+author_link: "https://github.com/Scorpion197"
+
+category: pwn
+difficulty: easy
+
+description: |
+  > yet another ret2win challenge
+  > [files](https://drive.google.com/drive/folders/1of8LQqUvx-ejUFLPLviXFz8Rt1WLr8qx?usp=share_link)
+  **Author** : Scorpion197
+connection_info: nc challenges.ctf.alphabit.club 1205
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 25
+  minimum: 50
+
+flags:
+  - AlphaCTF{A_sp3c1al_ret2w1n_th1$_t1m3}
+state: hidden
+
+version: "0.1"

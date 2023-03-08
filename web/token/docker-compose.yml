@@ -1,0 +1,11 @@
+version: "3.7"
+services:
+  app:
+    image: token
+    build:
+      context: .
+    working_dir: /home/alphaCTF/app
+    container_name: token
+    restart: always
+    ports:
+      - 1401:5000

@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+  app:
+    build: challenge/app/
+    ports:
+      - 1407:5000
+    environment:
+      - EMAIL_ADDRESS=macfaw1337@gmail.com
+      - EMAIL_PASSWORD=wnxhanwadvtmogvh
+      - FLAG=`AlphaCTF{g0tTA_watCH_7hE_H0S7_h34d3r}`
+    restart: always
+
+  admin:
+    build: challenge/admin/
+    depends_on:
+      - app
+    environment:
+      - EMAIL_ADDRESS=macfaw1337@gmail.com
+      - EMAIL_PASSWORD=wnxhanwadvtmogvh
+    restart: always

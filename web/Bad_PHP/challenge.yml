@@ -1,0 +1,36 @@
+name: Bad PHP
+author: Adel
+author_link: https://github.com/Spidey-y
+
+category: web
+difficulty: easy
+
+description: |
+  > Why everyone hating on PHP? It's a great language, it's just that people don't know how to use it properly...
+  
+  **Author** : Adel
+  
+
+connection_info: https://challenges.ctf.alphabit.club:1410
+
+flags:
+  - AlphaCTF{Php_iS_s0_WE1Rd_spEcI4ly_1F_YoURE_4_No0B_W17H_It}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25 # leave it like this
+    minimum: 100
+
+topics:
+  - web
+
+tags:
+  - web
+
+state: hidden
+
+version: "0.1"
+
+

@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: sos
+    ports:
+      - 1403:1402
+    restart: always

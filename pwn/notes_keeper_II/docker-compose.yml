@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  notes_keeper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    ports:
+      - 1202:9005

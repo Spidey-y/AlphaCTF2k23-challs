@@ -1,0 +1,14 @@
+version: '3'
+services:
+  app:
+    build: .
+    container_name: int-game
+    restart: always
+    
+    ports:
+      - 1001:1299
+    healthcheck:
+      test: socat - TCP4:localhost:1299 || exit 1
+      interval: 60s
+      timeout: 5s
+      retries: 5

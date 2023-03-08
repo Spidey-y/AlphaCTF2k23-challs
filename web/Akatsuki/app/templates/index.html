@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" href="{{url_for('static',filename='img/favicon.ico')}}">
+    <title>Akatsuki</title>
+</head>
+<body> 
+<main id="main">    
+    <h1 id="title">Akatsuki</h1>
+    <div id="img-div">
+    
+    <img id="image" src="/static/img/akatsuki.png" >
+    
+    <h3 id="img-caption">Akatsuki was a group of shinobi that existed outside the usual system of hidden villages.</h3>
+    
+    <p id="tribute-info">Over the course of several decades, Akatsuki took different forms and was led by different individuals.</p>
+    <p>Though each iteration is viewed as either subversives or criminals, all seek to make the world a better place through their own means.</p>
+    <p>Each Akatsuki tended to have multiple lairs across the world, inaccessible either due to their remoteness or the various security measures that protected them.</p>
+    
+    
+      <b>Akatsuki members:</b>
+      <form method="POST" action="/">
+        <select name="member">
+            <option value="0">pain</option>
+            <option value="1">Obito</option>
+            <option value="2">Itachi</option>
+            <option value="3">Kisame</option>
+            <option value="4">Deidara</option>
+            <option value="5">Sasori</option>
+            <option value="6">Kakuzu</option>
+            <option value="7">Konan</option>
+            <option value="8">Hidan</option>
+            <option value="9">Black Zetsu</option>
+            <option value="10">White Zetsu</option>
+        </select>
+        <input type="submit" name="array" value="memberlist"/>
+      </form> 
+      <div class="infoMember">
+        <p>{{member_infos}}</p>
+      </div>
+  </div>
+  
+</main>
+
+</body>
+</html>
+
+

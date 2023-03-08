@@ -1,0 +1,33 @@
+name: WarHero
+author: Adel
+author_link: https://github.com/Spidey-y
+
+category: crypto
+difficulty: easy
+
+description: |
+  > We have intercepted a message from the enemy, but that's weird, it doesn't make any sense. They won't just sit and wait will they?
+  > [message](https://drive.google.com/file/d/1b2dpLwqtic6de2GUfTYqyd9v9zYGfSCO/view?usp=sharing)
+
+  **Author** : Adel
+  
+flags:
+  - AlphaCTF{The_teA_In_NEpal_iS_vEry_hOT_But_thE_coFFeE_In_PerU_is_muCh_HoTteR}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25 # leave it like this
+    minimum: 100
+
+topics:
+  - crypto
+
+tags:
+  - crypto
+  - pdf
+
+state: hidden
+
+version: "0.1"

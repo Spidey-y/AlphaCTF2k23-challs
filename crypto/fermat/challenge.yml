@@ -1,0 +1,33 @@
+name: Fermat
+author: Adel
+author_link: https://github.com/Spidey-y
+
+category: crypto
+difficulty: medium
+
+description: |
+  > During one of our practical work sessions, me and my friend latr3ch3 made a very secure chat app, turned out it wasn't.
+  > [fermat](https://drive.google.com/drive/folders/1mvAV53CZMqNCda6Txc9oiq9mzypqn7KY?usp=share_link)
+
+  **Author** : Adel
+  
+flags:
+  - AlphaCTF{rs4_NO0BS_haVing_fUN}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25 
+    minimum: 100
+
+topics:
+  - crypto
+  - wireshark
+
+tags:
+  - crypto
+
+state: hidden
+
+version: "0.1"

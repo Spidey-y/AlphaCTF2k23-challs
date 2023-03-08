@@ -1,0 +1,36 @@
+name: Dankort
+author: Adel
+author_link: https://github.com/Spidey-y
+
+category: misc
+difficulty: easy
+
+description: |
+  > The flag for this challenge is a valid visa card number that can be devided by 57568390651. (ps: the number is unique)
+  > format: AlphaCTF{credit_card_number}
+  
+  **Author** : Adel
+  
+flags:
+  - AlphaCTF{4571793743549165}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25 # leave it like this
+    minimum: 100
+
+topics:
+  - Programming
+  - Brute force
+  - osint
+
+tags:
+  - Programming
+
+state: hidden
+
+version: "0.1"
+
+

@@ -1,0 +1,35 @@
+name: iduoassem-lemak
+author: yalatr3ch3
+author_link: https://github.com/Yassine-Latreche
+category: reverse
+difficulty: easy
+description: |
+  > I always liked listening to this song since I was a child:
+  >  
+  > What a heartbreak for you, O world, you have a story and tales  
+  > Forgive me, sit down and tell them to me firmly  
+  > Why is she so spiteful and toxic? You keep changing the attributes  
+  > Torture me other than a little bit of your torment blessings  
+  >    
+  > Singer: iduoassem lemak  
+
+  **Author** : yalatr3ch3
+flags:
+  - AlphaCTF{Ch43b1_i5_4rt_4Nd_Ar7_N3v3R_d13s}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25
+    minimum: 50
+topics:
+  - Misc
+tags:
+  - Osint
+  - Guessing
+  - Steganography
+
+# DO NOT CHANGE
+state: hidden
+version: "0.1"
+

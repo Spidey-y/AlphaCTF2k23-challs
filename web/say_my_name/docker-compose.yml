@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app:
+    image: say_my_name
+    build: files/
+    ports:
+      - 1405:80
+    restart: always

@@ -1,0 +1,34 @@
+name: ZipFile
+author: Adel
+author_link: https://github.com/Spidey-y
+
+category: misc
+difficulty: easy
+
+description: |
+  > Grab a cup of coffee, it will take you so long to reach the secret :) but aren't you a hacker ? prove me wrong and show me your hacking skills
+  > [chall.zip](https://drive.google.com/file/d/18-oKxYyNj60H0wuMS9t5IcWyXaeMjB86/view?usp=sharing)
+  
+  **Author** : Adel
+  
+flags:
+  - AlphaCTF{4_R3aL_hACK3R_knOWs_how_t0_SCRipT}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25 # leave it like this
+    minimum: 100
+
+topics:
+  - Programming
+
+tags:
+  - Programming
+
+state: hidden
+
+version: "0.1"
+
+

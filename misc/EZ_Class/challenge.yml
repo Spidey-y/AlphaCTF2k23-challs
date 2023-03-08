@@ -1,0 +1,33 @@
+name: EZ class
+author: Adel
+author_link: https://github.com/Spidey-y
+
+category: misc
+difficulty: easy
+
+description: |
+  > Why go to class when you can find anything online? just learn **where** to search and look closely, there are so many secrets to discover out there.
+  
+  **Author** : Adel
+  
+flags:
+  - AlphaCTF{1M_7oO_CO0l_f0R_SCHo0l}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25 # leave it like this
+    minimum: 100
+
+topics:
+  - osint
+
+tags:
+  - osint
+
+state: hidden
+
+version: "0.1"
+
+

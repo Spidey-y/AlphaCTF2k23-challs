@@ -1,0 +1,26 @@
+version: "0.1"
+id: token
+name: Token
+category: web
+description: |
+  > Can you gain admin access and retrieve the flag?
+
+  > Author: Scorpion197
+
+
+connection_info: https://challenges.ctf.alphabit.club:1400
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 25
+    minimum: 50
+
+
+tags:
+  - medium
+  - Crypto, Web
+
+flags:
+  - AlphaCTF{R$A_1$_n0t_th4t_s3cur3_r1ght?}
+

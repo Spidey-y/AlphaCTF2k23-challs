@@ -1,0 +1,32 @@
+name: Ez Crypto
+author: Adel
+author_link: https://github.com/Spidey-y
+
+category: crypto
+difficulty: easy
+
+description: |
+  > Eazy crypto challenge, just decrypt the flag and submit it.
+  > [files](https://drive.google.com/drive/folders/1Q7oqKF0jwtSo_aKcHg4buhJMstHsYH71?usp=share_link)
+
+  **Author** : Adel
+  
+flags:
+  - AlphaCTF{pAsswOrd_Is_bAsic_EnOugh_And_yOu_knOw_It_And_ItSAlphA_And_ItS_AlwAys_aLpHA_And_ThiS_iS_juST_A_pAddinG}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25 
+    minimum: 100
+
+topics:
+  - crypto
+
+tags:
+  - crypto
+
+state: hidden
+
+version: "0.1"

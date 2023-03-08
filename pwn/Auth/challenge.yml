@@ -1,0 +1,24 @@
+name: "Auth"
+author: "0xhunter213"
+author_link: "https://github.com/0xhunter213"
+
+category: pwn
+difficulty: easy
+
+description: |
+  > memory is a mystery
+  **Author** : 0xhunter213
+  
+connection_info: nc -v challenges.ctf.alphabit.club  1201
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 25
+  minimum: 50
+
+flags:
+  - AlphaCTF{_$tr1ngStr_funct10n_tr1cks_r1ght!}
+state: hidden
+
+version: "0.1"

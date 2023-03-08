@@ -1,0 +1,33 @@
+name: Lecture
+author: Adel
+author_link: https://github.com/Spidey-y
+
+category: misc
+difficulty: easy
+
+description: |
+  > "take it ... it's yours" 
+  
+  **Author** : spidey_y (adel)
+  
+flags:
+  - AlphaCTF{CHeCKm4t3}
+
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25 # leave it like this
+    minimum: 100
+
+topics:
+  - osint
+
+tags:
+  - osint
+
+state: hidden
+
+version: "0.1"
+
+

@@ -1,0 +1,29 @@
+name: revenge
+author: yalatr3ch3
+author_link: https://github.com/Yassine-Latreche
+category: reverse
+difficulty: med-hard
+description: |
+  > Thor learned from his last year's mistake and shared the application in release mode!  
+  > Also, he told me that he had changed some small parameters including the secret he was hiding.  
+  > Attachment : [app-release.apk](https://drive.google.com/file/d/1Dj4_HuxX4XynXbgyx0smMuqQwHr3rH2b/view?usp=share_link)   
+  > Last year Source Code : [password_protector](https://github.com/vvxhid/alphaCTF-2022/tree/main/reverse/password_protector/src/alphactf)   
+
+  **Author** : yalatr3ch3
+flags:
+  - AlphaCTF{sE3_3v3n_FlUt73R_C4N_bE_rEvER$eD_W17h_A_b17_0F_HeLP}
+type: dynamic
+value: 500
+extra:
+    initial: 500
+    decay: 25
+    minimum: 50
+topics:
+  - Rev
+tags:
+  - Flutter
+
+# DO NOT CHANGE
+state: hidden
+version: "0.1"
+
